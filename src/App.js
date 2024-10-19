@@ -4,9 +4,9 @@ import { Twitter, Twitch, Youtube, Instagram, MessageCircle } from 'lucide-react
 const App = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    "/api/placeholder/800/600",
-    "/api/placeholder/800/600",
-    "/api/placeholder/800/600"
+    "https://1drv.ms/i/s!Amo7Ig2olbdsgYYCyTFVDJZfjYVMNg?embed=1&width=800&height=600",
+    "https://1drv.ms/i/s!Amo7Ig2olbdsgYYDsv-ePYkEIYvyZw?embed=1&width=800&height=600",
+    "https://1drv.ms/i/s!Amo7Ig2olbdsgYYB9Bmk0GxWOVIeXw?embed=1&width=800&height=600"
   ];
 
   useEffect(() => {
