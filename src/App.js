@@ -18,11 +18,11 @@ const App = () => {
 
   return (
     <div className="bg-gray-100 flex flex-col min-h-screen">
-      <header className="bg-blue-600 text-white p-4 shadow-md rounded-lg">
-        <h1 className="text-4xl font-bold">Mama-Droid</h1>
+      <header className="bg-blue-600 text-white p-4 shadow-md rounded-lg mt-6 mx-6">
+        <h1 className="text-4xl font-bold">mamadroid</h1>
       </header>
       
-      <main className="container mx-auto mt-8 flex-grow">
+      <main className="container mx-auto mt-8 flex-grow px-6">
         {/* Image Slider */}
         <div className="relative h-[600px] mb-8 rounded-lg shadow-md overflow-hidden">
           {slides.map((slide, index) => (
