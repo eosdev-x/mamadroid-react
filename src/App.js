@@ -36,7 +36,7 @@ const App = () => {
         <section className="bg-white p-8 rounded-lg shadow-md mb-8 text-center">
           <h2 className="text-2xl font-bold mb-4">About Me</h2>
           <p className="text-gray-700">
-            Welcome to my stream! I'm a passionate gamer who loves to entertain and interact with my audience.
+            Welcome to my site! I'm a passionate gamer who loves to entertain and interact with my audience.
             I stream a variety of content including Valorant, COD, and LOL.
             Join me for exciting gameplay, fun challenges, and great conversation!
           </p>
