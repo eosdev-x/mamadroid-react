@@ -12,6 +12,18 @@ const Gallery = () => {
       title: "Stream Moment 1",
       category: "streams"
     },
+        {
+      id: 1,
+      url: "https://1drv.ms/i/s!Amo7Ig2olbdsgYYDsv-ePYkEIYvyZw?embed=1",
+      title: "Event Moment 1",
+      category: "events"
+    },
+        {
+      id: 1,
+      url: "https://1drv.ms/i/s!Amo7Ig2olbdsgYYB9Bmk0GxWOVIeXw?embed=1",
+      title: "Highlight Moment 1",
+      category: "highlights"
+    },
     // Add more images with categories
   ];
 
