@@ -59,7 +59,7 @@ const App = () => {
                   <h2 className="text-2xl font-bold mb-4 text-center">Live Stream</h2>
                   <div className="aspect-video flex justify-center">
                     <iframe
-                      src="https://player.twitch.tv/?channel=mamadroidtv&parent=localhost"
+                      src="https://player.twitch.tv/?channel=mamadroidtv&parent=mamadroid.com&autoplay=false"
                       frameBorder="0"
                       allowFullScreen={true}
                       scrolling="no"
