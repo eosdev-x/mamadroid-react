@@ -54,6 +54,23 @@ const App = () => {
                   </p>
                 </section>
 
+                {/* Twitch Embed */}
+                <section className="bg-white p-8 rounded-lg shadow-md mb-8">
+                  <h2 className="text-2xl font-bold mb-4 text-center">Live Stream</h2>
+                  <div className="aspect-video flex justify-center">
+                    <iframe
+                      src="https://player.twitch.tv/?channel=mamadroidtv&parent=localhost"
+                      frameBorder="0"
+                      allowFullScreen={true}
+                      scrolling="no"
+                      height="100%"
+                      width="100%"
+                      className="max-w-4xl"
+                      title="Twitch Stream"
+                    ></iframe>
+                  </div>
+                </section>
+
                 {/* Social Links */}
                 <section className="bg-white p-8 rounded-lg shadow-md text-center">
                   <h2 className="text-2xl font-bold mb-4 text-center">Connect With Me</h2>
