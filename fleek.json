@@ -1,6 +1,6 @@
 {
-  "build": {
-    "command": "npm run build:fleek",
-    "publicDir": "Dist"
+    "build": {
+      "command": "npm run build",
+      "publicDir": "Dist"
+    }
   }
-}

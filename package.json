@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "build:fleek": "vite build && mv dist Dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
