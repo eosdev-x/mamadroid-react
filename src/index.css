@@ -2,23 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.slider {
-  width: 100%;
-  height: 400px;
-  position: relative;
-  overflow: hidden;
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
 }
 
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+@layer components {
+  .social-icon-btn {
+    @apply w-12 h-12 flex items-center justify-center rounded-lg 
+    bg-white/10 text-white hover:bg-purple-600 transition-colors duration-300
+    hover:scale-110 backdrop-blur-sm;
+  }
 }
 
-.slide.active {
-  opacity: 1;
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s ease infinite;
 }
