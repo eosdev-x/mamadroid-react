@@ -1,6 +1,6 @@
 {
-    "build": {
-      "command": "npm run build",
-      "publicDir": "Dist"
-    }
+  "build": {
+    "command": "./build.sh",
+    "publicDir": "Dist"
   }
+}
