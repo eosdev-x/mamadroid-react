@@ -1,7 +1,7 @@
 {
-    "build": {
-      "command": "npm run build",
-      "publicDir": "Dist",
-      "baseDir": "."
-    }
+  "build": {
+    "command": "npm run build && mkdir -p Dist && cp -r dist/* Dist/",
+    "publicDir": "Dist",
+    "baseDir": "."
   }
+}
