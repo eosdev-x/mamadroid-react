@@ -1,7 +1,6 @@
 {
   "build": {
-    "command": "npm run build && mkdir -p Dist && cp -r dist/* Dist/",
-    "publicDir": "Dist",
-    "baseDir": "."
+    "command": "npm run build:fleek",
+    "publicDir": "Dist"
   }
 }
